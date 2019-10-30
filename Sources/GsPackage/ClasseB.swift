@@ -9,4 +9,8 @@ import Foundation
 
 class ClasseB {
     var unaStringa: String?
+    
+    public init() {
+        
+    }
 }

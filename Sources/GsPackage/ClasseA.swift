@@ -10,4 +10,11 @@ import UIKit
 
 public class ClasseA {
     var prova: UIView?
+    public var provaPub: UIView?
+    
+    public init() {
+        
+    }
+    
+    
 }

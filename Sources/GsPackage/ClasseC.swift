@@ -10,4 +10,8 @@ import Foundation
 private class ClasseC {
     var stringaNormale: String?
     private var stringaPrivata: String?
+    
+    public init(){
+        
+    }
 }
