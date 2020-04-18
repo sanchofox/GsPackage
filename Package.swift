@@ -20,7 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "GsPackage",
-            dependencies: []),
+            dependencies: [],
+            linkerSettings: [.linkedFramework("bit4sign")]),
         .testTarget(
             name: "GsPackageTests",
             dependencies: ["GsPackage"]),
